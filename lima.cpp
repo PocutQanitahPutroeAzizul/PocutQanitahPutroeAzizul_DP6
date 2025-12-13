@@ -43,7 +43,6 @@ int main() {
     } else {
         cout << "Status: TIDAK TERSEDIA" << endl;
         
-        // Cari kursi terdekat
         int terdekat = kursiTersedia[0];
         int selisih = abs(kursiTersedia[0] - cari);
         
@@ -58,4 +57,5 @@ int main() {
     }
     
     return 0;
+
 }
